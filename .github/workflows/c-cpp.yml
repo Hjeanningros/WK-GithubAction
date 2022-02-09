@@ -14,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: configure
-      run: ./install_criterion
+      run: ./install_criterion.sh
     - name: make
       run: make
